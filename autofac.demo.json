@@ -1,0 +1,20 @@
+{
+  "defaultAssembly": "AutofacExperiments",
+  "modules": [
+    {
+      "type": "AutofacExperiments.TestModule",
+      "parameters": {
+        "debugMode": true
+      },
+      "properties": {
+        "DictionaryProp": {
+          "key": "value"
+        },
+        "ListProp": [ 1, 2, 3, 4, 5 ]
+      }
+    },
+    {
+      "type": "AutofacExperiments.AnotherModule"
+    }
+  ]
+}
